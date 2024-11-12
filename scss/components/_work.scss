@@ -1,0 +1,31 @@
+.work {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  
+  .work-title {
+    color: var(--text-color);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.31;
+    letter-spacing: 1.08px;
+    margin-bottom: 50px;
+  }
+  
+  .team-picture {
+    max-width: 100%;
+  }
+  
+  .work-list {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .work-item {
+    flex-basis: calc((100% - 60px) / 3);
+  }
+  
+  .work-img {
+    width: 100%;
+  }
