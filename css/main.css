@@ -329,6 +329,10 @@ template {
   display: none;
 }
 
+body {
+  font-family: "Roboto", "sans-serif";
+}
+
 .header-blue {
   color: #2196f3;
   font-family: "Raleway", sans-serif;
@@ -691,10 +695,6 @@ template {
 .item-icon:hover {
   background-color: var(--accent-color);
   cursor: pointer;
-}
-
-body {
-  font-family: "Roboto", "sans-serif";
 }
 
 .team-section {
